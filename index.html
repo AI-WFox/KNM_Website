@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Giọt Nước - Về Chúng Tôi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="water-bg" id="waterBg"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <div class="water-drop"></div>
+            </div>
+            <h1 class="team-name">Team Giọt Nước</h1>
+            <p class="team-meta">Mã: KN01 | Nhóm: 05 | Lớp: 25C11</p>
+        </div>
+        <nav>
+            <a href="#about">Giới Thiệu</a>
+            <a href="#members">Thành Viên</a>
+            <a href="#gallery">Hình Ảnh</a>
+            <a href="#documents">Tài Liệu</a>
+            <a href="#contact">Liên Hệ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2><i class="fas fa-info-circle"></i> Thông Tin Chung Nhóm</h2>
+            <p class="intro-text">
+                Team Giọt Nước là một nhóm năng động, sáng tạo với mục tiêu mang đến những giá trị tích cực như những giọt nước nhỏ góp phần tạo nên đại dương. Chúng tôi tin rằng sức mạnh của tập thể sẽ tạo ra những điều kỳ diệu.
+            </p>
+            
+            <div class="team-info">
+                <div class="info-card">
+                    <h3><i class="fas fa-book"></i> Môn học</h3>
+                    <p>Kỹ Năng Mềm - Lớp 25C11</p>
+                </div>
+                <div class="info-card">
+                    <h3><i class="fas fa-bullseye"></i> Mục Tiêu</h3>
+                    <p>Xây dựng nhóm làm việc hiệu quả, chuyên nghiệp</p>
+                </div>
+                <div class="info-card">
+                    <h3><i class="fas fa-star"></i> Giá Trị Cốt Lõi</h3>
+                    <p>Đoàn kết, Sáng tạo, Trách nhiệm, Phát triển</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="members">
+            <h2><i class="fas fa-users"></i> Thành Viên Nhóm</h2>
+            <div class="members-grid">
+                <div class="member-card" onclick="showMemberDetail(1)">
+                    <div class="member-avatar">
+                        <img src="img/NguyenBaDuy.jpg" alt="Nguyễn Bá Duy" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Nguyễn Bá Duy</h3>
+                    <div class="member-role">Nhóm trưởng</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127040</p>
+                        <p><i class="fas fa-envelope"></i> nbduy2506@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+
+                <div class="member-card" onclick="showMemberDetail(2)">
+                    <div class="member-avatar">
+                        <img src="img/PhamKhanhTam.jpg" alt="Phạm Khánh Tâm" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Phạm Khánh Tâm</h3>
+                    <div class="member-role">Thành viên</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127135</p>
+                        <p><i class="fas fa-envelope"></i> pktam2530@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+
+                <div class="member-card" onclick="showMemberDetail(3)">
+                    <div class="member-avatar">
+                        <img src="img/TranNgoGiaHan.jpg" alt="Trần Ngô Gia Hân" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Trần Ngô Gia Hân</h3>
+                    <div class="member-role">Thành viên</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127192</p>
+                        <p><i class="fas fa-envelope"></i> tnghan2536@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+
+                <div class="member-card" onclick="showMemberDetail(4)">
+                    <div class="member-avatar">
+                        <img src="img/NguyenGiaBao.jpg" alt="Nguyễn Gia Bảo" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Nguyễn Gia Bảo</h3>
+                    <div class="member-role">Thành viên</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127280</p>
+                        <p><i class="fas fa-envelope"></i> ngbao2527@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+
+                <div class="member-card" onclick="showMemberDetail(5)">
+                    <div class="member-avatar">
+                        <img src="img/LeThienLong.jpg" alt="Lê Thiên Long" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Lê Thiên Long</h3>
+                    <div class="member-role">Thành viên</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127410</p>
+                        <p><i class="fas fa-envelope"></i> ltlong2515@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+
+                <div class="member-card" onclick="showMemberDetail(6)">
+                    <div class="member-avatar">
+                        <img src="img/TruongLeQuan.jpg" alt="Trương Lê Quân" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Trương Lê Quân</h3>
+                    <div class="member-role">Thành viên</div>
+                    <div class="member-info">
+                        <p><i class="fas fa-id-badge"></i> 25127477</p>
+                        <p><i class="fas fa-envelope"></i> tlquan2513@clc.fitus.edu.vn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2><i class="fas fa-images"></i> Hình Ảnh Nhóm</h2>
+            <div class="gallery">
+                <div class="gallery-item" onclick="viewImage('meeting/pic1.png')">
+                    <img src="meeting/pic1.png" alt="Họp nhóm 1" onerror="this.src='https://placehold.co/600x400?text=Image+Not+Found'">
+                </div>
+                <div class="gallery-item" onclick="viewImage('meeting/pic2.png')">
+                    <img src="meeting/pic2.png" alt="Họp nhóm 2" onerror="this.src='https://placehold.co/600x400?text=Image+Not+Found'">
+                </div>
+                <div class="gallery-item" onclick="viewImage('meeting/pic3.png')">
+                    <img src="meeting/pic3.png" alt="Họp nhóm 3" onerror="this.src='https://placehold.co/600x400?text=Image+Not+Found'">
+                </div>
+                <div class="gallery-item" onclick="viewImage('meeting/pic4.png')">
+                    <img src="meeting/pic4.png" alt="Họp nhóm 4" onerror="this.src='https://placehold.co/600x400?text=Image+Not+Found'">
+                </div>
+                <div class="gallery-item" onclick="viewImage('meeting/pic5.png')">
+                    <img src="meeting/pic5.png" alt="Họp nhóm 5" onerror="this.src='https://placehold.co/600x400?text=Image+Not+Found'">
+                </div>
+            </div>
+        </section>
+
+        <section id="documents">
+            <h2><i class="fas fa-file-alt"></i> Hợp Đồng & Quy Định Nhóm</h2>
+            <div class="documents">
+                <div class="document-card">
+                    <h3><i class="fas fa-file-contract"></i> Thông Tin Hợp Đồng</h3>
+                    <p><strong>Mã nhóm:</strong> KN01</p>
+                    <p><strong>Số nhóm:</strong> 05</p>
+                    <p><strong>Môn học:</strong> Kỹ Năng Mềm - Lớp 25C11</p>
+                    <p><strong>Thành viên:</strong> 6 người</p>
+                </div>
+
+                <div class="document-card">
+                    <h3><i class="fas fa-gavel"></i> Quy Tắc Chung</h3>
+                    <ul class="rule-list">
+                        <li>Hoàn thành công việc đúng tiến độ, có tinh thần trách nhiệm</li>
+                        <li>Nếu gặp sự cố, phải báo cho nhóm trước ít nhất 2 ngày</li>
+                        <li>Họp hoặc hoạt động nhóm: báo trước 24 giờ</li>
+                        <li>Tôn trọng và lịch sự trong giao tiếp</li>
+                        <li>Các quyết định được đưa ra theo biểu quyết đa số</li>
+                        <li>Họp ít nhất 1 lần/tuần, ưu tiên họp trực tiếp tại phòng học nhóm</li>
+                    </ul>
+                </div>
+
+                <div class="document-card">
+                    <h3><i class="fas fa-clock"></i> Quy Định Về Thời Gian Họp</h3>
+                    <table>
+                        <tr>
+                            <td>Trễ ≤ 10 phút</td>
+                            <td>Trừ 10%</td>
+                        </tr>
+                        <tr>
+                            <td>Trễ 10 - 30 phút</td>
+                            <td>Trừ 15%</td>
+                        </tr>
+                        <tr>
+                            <td>Trễ > 30 phút hoặc vắng mặt</td>
+                            <td>Trừ 30%</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="document-card">
+                    <h3><i class="fas fa-comments"></i> Kế Hoạch Giao Tiếp</h3>
+                    <p><strong>Kênh giao tiếp chính:</strong> Messenger, Gmail</p>
+                    <p><strong>Tần suất gặp mặt:</strong> 1 lần/tuần</p>
+                    <p><strong>Địa điểm:</strong> Phòng học nhóm hoặc Google Meet</p>
+                </div>
+
+                <div class="document-card">
+                    <h3><i class="fas fa-award"></i> Quy Tắc Thưởng & Phạt</h3>
+                    <p class="section-title">Thưởng:</p>
+                    <ul class="rule-list">
+                        <li>Hỗ trợ khắc phục sự cố cho thành viên khác → nhận lại phần điểm trừ tương ứng</li>
+                        <li>Hoàn thành tốt và đóng góp tích cực → +5%</li>
+                    </ul>
+                    <p class="section-title mt-2">Phạt:</p>
+                    <ul class="rule-list">
+                        <li>Trễ họp quá 10 phút → trừ điểm theo bảng quy định</li>
+                        <li>Không hoàn thành nhiệm vụ được giao → trừ 100%</li>
+                    </ul>
+                </div>
+
+                <div class="document-card">
+                    <h3><i class="fas fa-chart-bar"></i> Tiêu Chí Đánh Giá</h3>
+                    <p>Mỗi thành viên sẽ <strong>đánh giá ẩn danh</strong> 4 người còn lại theo mẫu.</p>
+                    <p style="margin-top: 1rem;">Kết quả cuối cùng là <strong>trung bình cộng</strong> điểm đánh giá.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2><i class="fas fa-address-book"></i> Liên Hệ</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <strong>Email nhóm:</strong> nbduy2506@clc.fitus.edu.vn</p>
+                <p><i class="fas fa-university"></i> <strong>Trường:</strong> ĐH Khoa học Tự nhiên - ĐHQG TP.HCM</p>
+                <p><i class="fas fa-laptop-code"></i> <strong>Khoa:</strong> Công nghệ Thông tin</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Địa chỉ:</strong> Tp. Hồ Chí Minh, Việt Nam</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Team Giọt Nước - KN01. Mỗi giọt nước tạo nên đại dương.</p>
+        <p class="footer-credit">Thiết kế bởi Team Giọt Nước</p>
+    </footer>
+
+    <div class="modal" id="memberModal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <div id="imageViewer" class="modal" onclick="closeImageViewer()">
+        <span class="close-image">&times;</span>
+        <img class="modal-image-content" id="fullImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
