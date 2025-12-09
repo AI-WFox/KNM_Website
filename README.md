@@ -17,6 +17,6 @@ Website bài tập môn **Kỹ Năng Mềm** (Lớp 25C11 - Nhóm 05).
 | 5 | **Lê Thiên Long** | 25127410 | Thành viên |
 | 6 | **Trương Lê Quân** | 25127477 | Thành viên |
 
-## 🚀 Cách chạy
+## 🚀 Cách chạy chương trình
 1.  Tải code về máy.
 2.  Mở file `index.html` để xem trang web.
