@@ -1,11 +1,31 @@
-# Team Giọt Nước - Website Giới Thiệu
+# KNM05 Team Website
 
-Website bài tập môn **Kỹ Năng Mềm** (Lớp 25C11 - Nhóm 05).
+A responsive one-page website for team **LORD OF THE GLASSES** (group 05,
+class 25C11), built for the Soft Skills course at University of Science,
+VNU-HCM. Plain HTML, CSS and JavaScript, no framework or build step.
 
-## Công nghệ sử dụng
-* HTML5, CSS3, JavaScript (Vanilla).
-* FontAwesome (Icons).
+![Home section of the site](docs/screenshot.png)
 
-## Cách chạy chương trình
-1.  Tải code về máy.
-2.  Mở file `index.html` để xem trang web.
+## Sections
+
+- **About**: team goals and core values
+- **Members**: profile cards for the six members
+- **Gallery**: photos from team meetings
+- **Documents**: the team contract and group rules
+- **Contact**
+
+## Run
+
+Open `index.html` in any browser. To serve it locally:
+
+```bash
+python -m http.server 8000   # then open http://localhost:8000
+```
+
+## Stack
+
+HTML5, CSS3, vanilla JavaScript, Font Awesome icons.
+
+---
+
+*Website bài tập môn Kỹ Năng Mềm, lớp 25C11, nhóm 05. Mở `index.html` để xem.*
