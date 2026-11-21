@@ -11,7 +11,7 @@ VNU-HCM. Plain HTML, CSS and JavaScript, no framework or build step.
 - **About**: team goals and core values
 - **Members**: profile cards for the six members
 - **Gallery**: photos from team meetings
-- **Documents**: links to the team's coursework
+- **Documents**: the team contract and group rules
 - **Contact**
 
 ## Run
